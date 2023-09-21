@@ -1,0 +1,23 @@
+version
+
+express version ^4.18.2
+
+1st part => 4
+2nd part => 18
+3rd part => 2
+
+
+// 3rd part (Last Part) => Minor Fixes(Optional Update) Minor bug fix by express then version is minor change
+// 2nd part (Middle part) => Latest 18 - Recommend bug fix or security bug fix (We should update version) new changes are came
+// 1st part (Starting part) => Major release, Breaking update(We shouldn't update) for existing project, if 
+                                you are into the new project then don't do that you good to go with new version
+
+
+// ^ carriet symbol => compatible with version ^4 lock and 18.2 that is changeble if we update the express.
+^ if we remove the carriet symbol then we not update the version so we uninstall and then install the specific version
+    otherwise we use ^ this symbol so simply udate using node
+    
+
+npm uninstall express
+npm install express => then get latest expressjs
+npm install express@4.17.2 => then get specific express js 
