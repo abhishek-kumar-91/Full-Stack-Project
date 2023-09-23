@@ -1,0 +1,10 @@
+REST API - JSON Data export
+
+GET /users - list all users //done
+GET /users/1 - get the user ID 1 //dynamic path
+GET /user/2 - get the user ID 2 //done
+
+POST /user - create new user
+PATCH /user/id - Edit the user with id 1
+
+DELETE /users/1 - Delete the user with ID 1
